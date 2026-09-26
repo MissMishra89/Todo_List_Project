@@ -1,0 +1,822 @@
+@import "tailwindcss";
+
+/* CSS */
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family:
+    Inter,
+    -apple-system,
+    system-ui,
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+  margin: 15px 5px;
+}
+
+.button-42:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+/* CSS */
+.button-91 {
+  color: #fff;
+  padding: 9px 40px;
+  background-color: #38d2d2;
+  background-image:
+    radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow:
+    inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6),
+    2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  height: 40px;
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+/* From Uiverse.io by yaasiinaxmed */
+.button-3 {
+  --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  line-height: 2.5em;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 10px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+.button-3::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.button-3:hover {
+  color: white;
+}
+
+.button-3:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+.button-3:hover::before {
+  top: -30px;
+  left: -30px;
+}
+
+/* CSS */
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow:
+    rgba(57, 31, 91, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow:
+    rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px,
+    rgba(57, 31, 91, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#b384c9, #391f5b 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Cancel button */
+
+/* CSS */
+.button-77 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 10px;
+  min-height: 40px;
+  outline: none;
+  overflow: visible;
+  padding: 10px 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-77 {
+    padding: 10px 20px;
+  }
+}
+
+.button-77:before,
+.button-77:after {
+  border-radius: 80px;
+}
+
+.button-77:before {
+  background-color: rgba(249, 58, 19, 0.32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-77:active:not(:disabled):after {
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: 0.24;
+}
+
+/* delete button code */
+
+.btn-rainbow-shift {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    #ff004c,
+    #ff8a00,
+    #ffd300,
+    #00d26a,
+    #00a3ff,
+    #7b2ff7
+  );
+  background-size: 400% 100%;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  animation: btn-rainbow-shift-flow 6s linear infinite;
+}
+.btn-rainbow-shift:hover {
+  animation-duration: 1.5s;
+}
+@keyframes btn-rainbow-shift-flow {
+  to {
+    background-position: 400% 0;
+  }
+}
+.btn-rainbow-shift:focus-visible {
+  outline: 2px solid #ff004c;
+  outline-offset: 3px;
+}
+
+/* edit button code */
+
+.btn-neo-concave {
+  display: inline-block;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #cbd0d8, #f0f5fc);
+  color: #4a5568;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow:
+    8px 8px 16px #bec3cf,
+    -8px -8px 16px #ffffff;
+  transition: box-shadow 0.2s ease;
+  margin: 5px 50px;
+}
+.btn-neo-concave:hover {
+  box-shadow:
+    5px 5px 12px #bec3cf,
+    -5px -5px 12px #ffffff;
+}
+.btn-neo-concave:active {
+  background: linear-gradient(145deg, #f0f5fc, #cbd0d8);
+  box-shadow:
+    inset 4px 4px 8px #bec3cf,
+    inset -4px -4px 8px #ffffff;
+}
+.btn-neo-concave:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* del button  */
+
+.btn-neo-pressed {
+  display: inline-block;
+  padding: 7px 28px;
+  border: none;
+  border-radius: 14px;
+  background: #e0e5ec;
+  color: #4a5568;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow:
+    inset 6px 6px 12px #bec3cf,
+    inset -6px -6px 12px #ffffff;
+  transition:
+    box-shadow 0.2s ease,
+    color 0.2s ease;
+  margin: 5px 20px;
+}
+.btn-neo-pressed:hover {
+  color: #6366f1;
+}
+.btn-neo-pressed:active {
+  box-shadow:
+    inset 9px 9px 16px #bec3cf,
+    inset -9px -9px 16px #ffffff;
+}
+.btn-neo-pressed:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* =====================================================================
+   PINK GLASSMORPHISM THEME  (sirf niche add kiya hai — upar ka code same hai)
+   ===================================================================== */
+
+:root {
+  --pink-50: #fff0f7;
+  --pink-100: #ffd9ec;
+  --pink-300: #ff9ccc;
+  --pink-400: #ff6fb1;
+  --pink-500: #ec4899;
+  --pink-600: #db2777;
+  --pink-700: #be185d;
+  --plum: #4a1230;
+  --glass-bg: rgba(255, 255, 255, 0.28);
+  --glass-bg-strong: rgba(255, 255, 255, 0.42);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-shadow: 0 8px 32px rgba(219, 39, 119, 0.18);
+}
+
+/* ---------- Page background ---------- */
+body {
+  min-height: 100vh;
+  color: var(--plum);
+  font-family:
+    "Segoe UI",
+    Inter,
+    system-ui,
+    -apple-system,
+    Roboto,
+    sans-serif;
+  background: linear-gradient(
+    135deg,
+    #ffd6ea 0%,
+    #ffa9d3 35%,
+    #ffc7e2 65%,
+    #ffe6f2 100%
+  );
+  background-attachment: fixed;
+}
+
+/* soft pink blobs jo glass ke peeche se dikhte hain */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at 12% 18%,
+      rgba(255, 105, 180, 0.55) 0,
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 88% 12%,
+      rgba(255, 190, 220, 0.75) 0,
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 72% 86%,
+      rgba(236, 72, 153, 0.4) 0,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 8% 92%,
+      rgba(255, 150, 200, 0.6) 0,
+      transparent 36%
+    );
+  animation: pink-drift 20s ease-in-out infinite alternate;
+}
+
+@keyframes pink-drift {
+  from {
+    transform: translate3d(-1.5%, -1%, 0) scale(1.05);
+  }
+  to {
+    transform: translate3d(1.5%, 1%, 0) scale(1.12);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--pink-400);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--pink-300), var(--pink-500));
+  border-radius: 10px;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  backdrop-filter: blur(16px) saturate(160%);
+  border-color: var(--glass-border);
+  border-radius: 0 0 24px 24px;
+  box-shadow: var(--glass-shadow);
+}
+
+header img {
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(219, 39, 119, 0.3);
+}
+
+/* ---------- Sidebar (Category / Priority) ---------- */
+aside {
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 175, 212, 0.3)
+  );
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+  backdrop-filter: blur(18px) saturate(170%);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    var(--glass-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  position: static;
+}
+
+aside > p {
+  color: var(--pink-700);
+  font-weight: 700;
+}
+
+aside li {
+  padding: 0.45rem 0.9rem;
+  margin: 0.35rem 0;
+  border-radius: 12px;
+  background: var(--glass-bg-strong);
+  border: 1px solid var(--glass-border);
+  color: var(--plum);
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+aside li:hover {
+  background: rgba(236, 72, 153, 0.28);
+  transform: translateX(4px);
+  box-shadow: 0 4px 14px rgba(219, 39, 119, 0.22);
+}
+
+/* ---------- Task list container ---------- */
+div.border.w-full.rounded-2xl {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  backdrop-filter: blur(14px) saturate(150%);
+  border-color: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  padding-right: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* ---------- Task cards ---------- */
+.w-200.border-2 {
+  max-width: 100%;
+  padding-block: 0.75rem;
+  border-color: var(--glass-border);
+  border-radius: 18px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 200, 225, 0.22)
+  );
+  -webkit-backdrop-filter: blur(12px) saturate(160%);
+  backdrop-filter: blur(12px) saturate(160%);
+  box-shadow:
+    0 8px 28px rgba(219, 39, 119, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.w-200.border-2:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 14px 36px rgba(219, 39, 119, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.w-200 p {
+  margin: 0.15rem 0;
+}
+
+/* subtask row */
+.cursor-pointer.border {
+  padding: 0.25rem 0.7rem;
+  border-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  background: var(--glass-bg-strong);
+  transition: background 0.2s ease;
+}
+.cursor-pointer.border:hover {
+  background: rgba(255, 182, 213, 0.5);
+}
+
+label.text-black {
+  color: var(--plum);
+}
+
+/* ---------- Popup form ---------- */
+form fieldset {
+  padding-bottom: 0.75rem;
+  border-color: var(--glass-border);
+  border-radius: 24px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.52),
+    rgba(255, 190, 220, 0.26)
+  );
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
+  backdrop-filter: blur(22px) saturate(180%);
+  box-shadow:
+    0 20px 60px rgba(219, 39, 119, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+form legend {
+  padding: 0 0.7rem;
+  color: var(--pink-700);
+  font-weight: 700;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.8);
+}
+
+form label {
+  color: var(--pink-700);
+  font-weight: 600;
+}
+
+form p {
+  display: flex;
+  align-items: center;
+  padding: 0 0.65rem;
+  font-size: 0.8rem;
+  border-color: rgba(236, 72, 153, 0.55);
+  background: var(--glass-bg-strong);
+}
+
+/* ---------- Inputs / selects ---------- */
+input[type="text"],
+select {
+  padding: 0.2rem 0.65rem;
+  color: var(--plum);
+  border-color: rgba(236, 72, 153, 0.55);
+  background: rgba(255, 255, 255, 0.5);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+select {
+  padding-inline: 0.4rem;
+  border-radius: 8px;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--pink-500);
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.22);
+}
+
+input::placeholder {
+  color: rgba(190, 24, 93, 0.5);
+}
+
+option {
+  background: var(--pink-50);
+  color: var(--plum);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--pink-500);
+}
+
+/* ---------- Buttons (existing classes ko pink kiya) ---------- */
+
+/* Add task */
+.button-42 {
+  background-image: linear-gradient(180deg, #ff93c6, #e6197a);
+  border-radius: 12px;
+  box-shadow:
+    rgba(230, 25, 122, 0.3) 0 4px 14px,
+    inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  transition:
+    box-shadow 0.2s,
+    transform 0.2s;
+}
+.button-42:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    rgba(230, 25, 122, 0.55) 0 6px 20px,
+    inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+/* Sub task "Add" */
+.button-91 {
+  background-color: #ff5fa2;
+}
+
+/* Sub task "delete" (form ke andar) */
+.button-3 {
+  --color: #ec4899;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Submit */
+.button-72 {
+  background-image: linear-gradient(
+    rgba(255, 150, 200, 0.92),
+    rgba(190, 24, 93, 0.9) 50%
+  );
+  box-shadow:
+    rgba(190, 24, 93, 0.28) 0 2px 2px,
+    rgba(255, 105, 180, 0.45) 0 8px 14px;
+  text-shadow:
+    rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px,
+    rgba(120, 10, 60, 0.6) 1px 1px 4px;
+}
+.button-72:hover {
+  background-image: linear-gradient(#ffa6d0, #be185d 50%);
+}
+
+/* Cancel */
+.button-77:before {
+  background-color: rgba(236, 72, 153, 0.3);
+}
+.button-77:after {
+  background-image: linear-gradient(92.83deg, #ff8fc3 0, #e0227e 100%);
+}
+.button-77:active:not(:disabled):after {
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(92.83deg, #ff8fc3 0, #e0227e 100%);
+}
+
+/* Subtask "Delete" (card ke andar) — rainbow ki jagah pink shades */
+.btn-rainbow-shift {
+  background: linear-gradient(
+    90deg,
+    #ff5fa2,
+    #ffa6d0,
+    #ff2e88,
+    #ffc2de,
+    #e91e8c,
+    #ff5fa2
+  );
+  background-size: 400% 100%;
+}
+
+/* Edit */
+.btn-neo-concave {
+  color: var(--pink-700);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 170, 210, 0.4)
+  );
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    6px 6px 16px rgba(219, 39, 119, 0.2),
+    -6px -6px 14px rgba(255, 255, 255, 0.8);
+}
+.btn-neo-concave:hover {
+  box-shadow:
+    4px 4px 10px rgba(219, 39, 119, 0.25),
+    -4px -4px 10px rgba(255, 255, 255, 0.9);
+}
+.btn-neo-concave:active {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 170, 210, 0.4),
+    rgba(255, 255, 255, 0.6)
+  );
+  box-shadow:
+    inset 4px 4px 8px rgba(219, 39, 119, 0.25),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.9);
+}
+
+/* Del */
+.btn-neo-pressed {
+  color: var(--pink-700);
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    inset 5px 5px 12px rgba(219, 39, 119, 0.2),
+    inset -5px -5px 12px rgba(255, 255, 255, 0.85);
+}
+.btn-neo-pressed:hover {
+  color: #e0227e;
+}
+.btn-neo-pressed:active {
+  box-shadow:
+    inset 8px 8px 16px rgba(219, 39, 119, 0.3),
+    inset -8px -8px 16px rgba(255, 255, 255, 0.9);
+}
+
+/* keyboard focus visible rahe */
+.btn-rainbow-shift:focus-visible,
+.btn-neo-concave:focus-visible,
+.btn-neo-pressed:focus-visible {
+  outline-color: var(--pink-600);
+}
+
+/* completed */
+.btn2 {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  box-shadow: inset -2px -2px white;
+  border: white;
+}
